@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: #f5f7fa;
+color: #333;
+line-height: 1.6;
+}
+
+/* Header */
+header {
+background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+color: white;
+text-align: center;
+padding: 50px 20px;
+}
+
+header h1 {
+font-size: 2.5rem;
+margin-bottom: 10px;
+}
+
+header p {
+opacity: 0.9;
+}
+
+/* Navegación */
+nav {
+background: #111;
+padding: 15px 0;
+text-align: center;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 20px;
+font-weight: 600;
+transition: 0.3s;
+}
+
+nav a:hover {
+color: #00c6ff;
+}
+
+/* Contenedor principal */
+main {
+max-width: 1000px;
+margin: 40px auto;
+padding: 30px;
+background: white;
+border-radius: 10px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Títulos */
+h2 {
+margin-bottom: 20px;
+color: #203a43;
+}
+
+h3 {
+margin-top: 25px;
+margin-bottom: 10px;
+color: #2c5364;
+}
+
+/* Párrafos */
+p {
+margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+margin-top: 40px;
+background: #0f2027;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+/* Botones (por si quieres agregar después) */
+.btn {
+display: inline-block;
+background: #00c6ff;
+color: white;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0072ff;
+}
